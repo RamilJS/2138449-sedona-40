@@ -2,6 +2,7 @@
 
 * Студент: [Рамил Велиев](https://up.htmlacademy.ru/htmlcss/40/user/2138449).
 * Наставник: [Евгения Подопригора](https://github.com/eepodoprigora).
+* Сайт: [Ссылка на проект](https://ramiljs.github.io/2138449-sedona-40/).
 
 ---
 
