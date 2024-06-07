@@ -56,7 +56,7 @@
 
       <section class="hero" data-test="hero">
         <h2 class="hero-description">Описание города</h2>
-        <img class="hero-image" alt="Welcome to the gorgeous SEDONA Because the Grand Canyon sucks" src="#">
+        <img class="hero-image" src="#" alt="Welcome to the gorgeous SEDONA Because the Grand Canyon sucks">
         <p>Седона - небольшой городок в Аризоне, <br> заслуживающий большего!</p>
         <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
       </section>
@@ -91,47 +91,42 @@
       </section>
 
       <section class="offer-container">
-        <h2 class="visually-hidden">Предложение</h2>
-        <p class="offer">ПРИЕЗЖАЙТЕ В СЕДОНУ ОТДОХНУТЬ <br> В КОМФОРТЕ И УЮТЕ!</p>
+        <h2 class="offer">ПРИЕЗЖАЙТЕ В СЕДОНУ ОТДОХНУТЬ В КОМФОРТЕ И УЮТЕ!</h2>
         <p class="offer-description">Опытный персонал и качественное обслуживание!</p>
       </section>
 
       <section class="services">
-        <h2 class="services-title">Услуги</h2>
+        <h2 class="services-title visually-hidden">Услуги</h2>
         <ul class="services-list">
           <li class="services-item">
-            <img class="services-icon" src="#" alt="Иконка дома">
-            <p class="services-description-title">
+            <h3 class="services-description-title">
               ЖИЛЬЁ
-            </p>
+            </h3>
             <p class="services-description">
               Рекомендуемм пожить <br> в настоящем отеле, <br> всё как в кино!
             </p>
           </li>
           <li class="services-item">
-            <img class="services-icon" src="#" alt="Иконка бургера">
-            <p class="services-description-title">
+            <h3 class="services-description-title">
               ЕДА
-            </p>
+            </h3>
             <p class="services-description">
               Всегда заказывайте <br> топовый фирменный бургер, <br> вы не разочаруетесь!
             </p>
           </li>
           <li class="services-item">
-            <img class="services-icon" src="#" alt="Иконка подарка">
-            <p class="services-description-title">
+            <h3 class="services-description-title">
               СУВЕНИРЫ
-            </p>
-            <p class="services-description">
-              Не только китайского, <br> но и настоящего местного <br> производства!
-            </p>
+              </p>
+              <h3 class="services-description">
+                Не только китайского, <br> но и настоящего местного <br> производства!
+                </p>
           </li>
         </ul>
       </section>
 
       <section class="search" data-test="search">
-        <h2 class="search-title visually-hidden">Поиск</h2>
-        <h3 class="search-description-title">Заинтересовались?</h3>
+        <h2 class="search-title">Заинтересовались?</h2>
         <p class="search-description">
           Укажите предполагаемые даты поездки, <br> и мы покажем вам лучшие предложения гостиниц в Седоне
         </p>
@@ -149,7 +144,7 @@
           <label for="subscribe-email">Email</label>
           <input type="email" name="subscribe-email" id="subscribe-email" placeholder="Ваш e-mail required">
           <button class="button subscribe-button" type="submit">
-            ПОДПИСАТЬСЯ
+            Подписаться
           </button>
         </form>
       </section>
@@ -160,38 +155,30 @@
         <h2 class="footer-title visually-hidden">Соцсети</h2>
         <ul class="footer-social-list">
           <li class="footer-social-list-item">
-            <a class="button" href="https://vk.com/htmlacademy">
+            <a class="button button-social" href="https://vk.com/htmlacademy">
               <span class="visually-hidden">Vkontakte</span>
             </a>
           </li>
           <li class="footer-social-list-item">
-            <a class="button" href="https://t.me/htmlacademy">
+            <a class="button button-social" href="https://t.me/htmlacademy">
               <span class="visually-hidden">Telegram</span>
             </a>
           </li>
           <li class="footer-social-list-item">
-            <a class="button" href="https://www.youtube.com/user/htmlacademyru">
+            <a class="button button-social" href="https://www.youtube.com/user/htmlacademyru">
               <span class="visually-hidden">YouTube</span>
             </a>
           </li>
         </ul>
       </section>
 
-      <section class="footer-contacts">
-        <h2 class="footer-title visually-hidden">Контакты</h2>
-        <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-      </section>
+      <a class="footer-contacts-phone" href="tel:+78128121212">
+        +7 (812) 812-12-12
+      </a>
 
-      <section class="footer-html">
-        <h2 class="page-footer-title visually-hidden">HTML Academy</h2>
-        <p class="about-text">
-          <a class="htmlacademy-link" href="https://htmlacademy.ru/">
-            .html academy
-          </a>
-        </p>
-      </section>
+      <a class="htmlacademy-link" href="https://htmlacademy.ru/">
+        <img class="htmlacademy-logo" src="#" alt="Разработано в HTML Academy">
+      </a>
     </footer>
-
   </body>
-
 </html>
