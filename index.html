@@ -9,13 +9,13 @@
   <body>
 
     <header class="page-header" data-test="header">
-      <a href="#" class="icon-link">
+      <a href="#" class="icon-link" aria-current="page">
         <img src="#" alt="Логотип Седона">
       </a>
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-list-item current-item">
-            <a class="navigation-link navigation-link-current" href="index.html">
+            <a class="navigation-link navigation-link-current" href="index.html" aria-current="page">
               Главная
             </a>
           </li>
@@ -43,9 +43,9 @@
             </a>
           </li>
           <li class="navigation-list-item">
-            <button class="navigation-button" type="button">
+            <a href="#" class="button navigation-button">
               Хочу сюда!
-            </button>
+            </a>
           </li>
         </ul>
       </nav>
@@ -56,9 +56,7 @@
 
       <section class="hero" data-test="hero">
         <h2 class="hero-description">Описание города</h2>
-        <p>Welcome <br> to the gorgeous</p>
-        <p>SEDONA</p>
-        <q>Because the Grand <br> Canyon sucks</q>
+        <img class="hero-image" alt="Welcome to the gorgeous SEDONA Because the Grand Canyon sucks" src="#">
         <p>Седона - небольшой городок в Аризоне, <br> заслуживающий большего!</p>
         <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
       </section>
@@ -133,12 +131,12 @@
 
       <section class="search" data-test="search">
         <h2 class="search-title visually-hidden">Поиск</h2>
-        <p class="search-description-title">ЗАИНТЕРЕСОВАЛИСЬ?</p>
+        <h3 class="search-description-title">Заинтересовались?</h3>
         <p class="search-description">
           Укажите предполагаемые даты поездки, <br> и мы покажем вам лучшие предложения гостиниц в Седоне
         </p>
         <button class="search-button" type="button">
-          ПОИСК ГОСТИНИЦЫ В СЕДОНЕ
+          Поиск гостиницы в Седоне
         </button>
       </section>
 
@@ -149,7 +147,7 @@
         </p>
         <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
           <label for="subscribe-email">Email</label>
-          <input type="email" name="subscribe-email" id="subscribe-email" placeholder="Ваш e-mail">
+          <input type="email" name="subscribe-email" id="subscribe-email" placeholder="Ваш e-mail required">
           <button class="button subscribe-button" type="submit">
             ПОДПИСАТЬСЯ
           </button>
