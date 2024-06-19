@@ -127,6 +127,140 @@ body {
   background-color: rgba(131, 179, 211, 0.2);
 }
 
+.offer-container {
+  color: #000000;
+  background-color: #ffffff;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
 
+.offer-container h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
 
+.services-list {
+  color: #000000;
+  background-color: #ffffff;
+  list-style-type: none;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
 
+.services-description-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.services-list li {
+  width: 400px;
+  height: 385px;
+}
+
+.services-list li:first-child,
+.services-list li:last-child {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.search {
+  color: #000000;
+  background-color: #ffffff;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.search-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.search-button {
+  color:#ffffff;
+  background-color: rgba(117, 97, 87, 1);
+  border-radius: 4px;
+  border-width: 0;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  padding: 8px 50px;
+}
+
+.subscribe {
+  color:#ffffff;
+  background-color: rgba(125, 181,79, 1);
+  background-image: url(../images/subscribe.jpg);
+  background-size: 100% auto;
+  height: 415px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.subscribe-form {
+  width: 684px;
+  height: 52px;
+}
+
+.subscribe-form input[type="email"] {
+  width: 452px;
+  height: 52px;
+  padding: 0;
+  border-width: 0;
+}
+
+.subscribe-button {
+  color:#ffffff;
+  background-color: rgba(130, 179, 211, 1);
+  border-width: 0;
+  padding: 8px 50px;
+  width: 232px;
+  height: 52px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer {
+  color:#000000;
+  background-color: #ffffff;
+  background-size: 100% auto;
+  height: 120px;
+}
+
+.footer-social-list {
+  list-style-type: none;
+}
+
+.footer-social-list-item a{
+  text-decoration: none;
+  color:rgba(130, 179, 211, 1);
+}
+
+.footer-contacts-phone {
+  text-decoration: none;
+  color:#000000;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+}
